@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewoirt" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap" rel="stylesheet">
+
+    <!-- Favicons -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Meta Description -->
+
+    <meta name="description" lang="ru" content="Ветеринарная Клиника ClinicVet, забота о здоровии вашего питомца, Конева 28, Бельцы, Молдова">
+    <!-- <meta name="description" lang="ro" content="Centrul Veterinar ClinicVet,avînd grijă de sănătatea animalului vostru, Conev 28, Bălti, Moldova"> -->
+
+    <meta name="keywords" lang="ru" content="Ветеринарная Клиника в Бельцах, Ветеринарная помощь,Ветеринарная служба, Ветеринарный центр, Лечение животных, Прививки,  Ветаптека, Корма для животных, Документы на выезд, Чипирование, Аксессуары для животных, Лекарства для животных">
+    <!-- <meta name="keywords" lang="ro" content="Clinica veterinară din Bălți, Tratamentul animalelor, Vaccinări, Farmacia Veterinară, Hrană pentru animale, Documente pentru călătorii, Vaccinare, Accesorii pentru animale, Medicamente pentru animale"> -->
+
+    <title>ClinicVet</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+
+    <!--   Header   -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <img src="assets/img/headerLogo.png" alt="Clinicvet">
+                </div>
+
+                <nav class="nav" id="nav">
+                    <a class="nav__link" href="#" data-scroll="#description">Ваш Доктор</a>
+                    <a class="nav__link" href="#" data-scroll="#booking">Постоянным Клиентам</a>
+                    <a class="nav__link" href="#" data-scroll="#services">Услуги</a>
+                    <a class="nav__link" href="#" data-scroll="#footer">Контакты</a>
+                    <a class="nav__auth__link" href="#" data-modal="authBox">Личный Кабинет</a>
+                </nav>
+
+
+                <button class="menu" type="button" id="navToggle">
+                    <span class="menu__item">Menu</span>
+				</button>
+
+            </div>
+        </div>
+    </header>
+
+
+    <!--   Intro  -->
+    <div class="intro" id="intro">
+
+        <div class="video">
+            <video class="video__media" src="assets/video/main.mp4" autoplay muted loop poster="assets/img/back_intro.png"></video>
+            <div class="intro__content">
+                <div class="container__content">
+                    <div class="intro__inner">
+                        <h1 class="intro__title">Добро Пожаловать в Ветеринарную Клинику ClinicVet</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--  Description-->
+    <div class="description" id="description">
+        <div class="container">
+            <div class="description__item">
+                <img class="description__icon" src="assets/img/paws.png" alt="">
+                <h4 class="description__title">Почему Мы</h4>
+                <div class="description__text">В ветеринарной клинике ClinicVet, во главе с опытным ветеринарным врачом Маларчук Александру, мы понимаем глубокую связь, которую вы разделяете со своим домашним животным. Мы знаем, что они больше похожи на члена семьи, чем просто на домашнее
+                    животное. Это потому, что мы, как ветеринары, не только врачи, но такие же родители домашних питомцев, как и вы. Мы не понаслышке знаем, какая радость, разделять любовь с нашими домашними питомцами, окружать заботой и беречь их здоровье.
+                    Наш личный опыт общения с животными делает нашу заботу такой уникальной.
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Services -->
+
+
+    <div class="container">
+        <div class="services" id="services">
+            <h4 class="services__main__title">Услуги Ветеринарной Клиники</h4>
+            <div class="services__item">
+                <img class="services__icon" src="assets/img/services/stetoskop.png" alt="">
+                <h5 class="services__title">Профилактический уход</h5>
+                <div class="services__text">Мы проводим тщательный осмотр от кончика носа до кончика хвоста. Проводим вакцинацию, профилактический уход против паразитов.
+                </div>
+            </div>
+
+            <div class="services__item">
+                <img class="services__icon" src="assets/img/services/tooth.png" alt="">
+                <h5 class="services__title">Стамотологический уход</h5>
+                <div class="services__text">Проводим периодические стоматологические осмотры которые помогают поддерживать надлежащую гигиену полости рта и предотвращать будущие осложнения.
+                </div>
+            </div>
+
+            <div class="services__item">
+                <img class="services__icon" src="assets/img/services/cat.png" alt="">
+                <h5 class="services__title">Питание</h5>
+                <div class="services__text">Ваш питомец зависит от вас, когда вы делаете правильный выбор питания для него, мы подскажем как это сделать.
+                </div>
+            </div>
+
+            <div class="services__item">
+                <img class="services__icon" src="assets/img/services/document.png" alt="">
+                <h5 class="services__title">Документы на выезд</h5>
+                <div class="services__text">Оформление ветеринарных паспортов, чипирование (электронный паспорт).
+                </div>
+            </div>
+
+            <div class="services__item">
+                <img class="services__icon" src="assets/img/services/smile.png" alt="">
+                <h5 class="services__title">Поведение</h5>
+                <div class="services__text">Наша опытная команда может определить медицинскую причину необычного поведения вашего питомца.
+                </div>
+            </div>
+
+            <div class="services__item">
+                <img class="services__icon" src="assets/img/services/faucet.png" alt="">
+                <h5 class="services__title">Купание</h5>
+                <div class="services__text">Даём рекомендации как купать и расчесывать вашего питомца, это лучший способ улучшить его внешний вид и самочувствие.
+                </div>
+            </div>
+
+            <div class="services__item">
+                <img class="services__icon" src="assets/img/services/doctor.png" alt="">
+                <h5 class="services__title">Хирургия</h5>
+                <div class="services__text">Ветеринарная клиника ClinicVet, гордится тем,что предлагает хирургическое лечение с использованием современного оборудования. от стандартной стерилизации до сложных узкоспециализированных процедур.
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Booking -->
+
+    <div class="booking" id="booking">
+        <div class="container">
+            <h3 class="booking__title">Станьте Нашим Клиентом</h3>
+            <div class="booking__text">
+                <p>Пройдите Простое Анкетирование Указав Информацию о Вас и о Вашем Питомце</p>
+            </div>
+            <a class="btn btn--orange" href="#" data-modal="authBox">Авторизация</a>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__block1">
+                    <div class="footer__logo">
+                        <img src="assets/img/footer_green_logo.png" alt="">
+                    </div>
+
+                    <div class="footer__social">
+                        <a class="footer__social" href="https://www.facebook.com/clinicvet.md/" aria-label="Facebook">
+                            <img src="assets/img/Facebook.png" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__block">
+                    <div class="footer__title">
+                        <h4 class="footer__title">Часы Работы:</h4>
+                        <div class="footer__text">
+                            <p>Понедельник - Пятница<br> 09:00 - 18:00 <br> 12:00 - 13:00 <br>(перерыв) <br> Суббота <br> 09:00 - 13:00 <br> Воскресенье <br> закрыто
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__block">
+                    <div class="footer__title">
+                        <h4 class="footer__title">Телефон:</h4>
+                        <div class="footer__text">
+                            <p class="footer__phone">
+                                <a class="footer__phone" href="tel:+37369-427-215">+373 69-427-215</a>
+                            </p>
+                            <p class="footer__phone">
+                                <a class="footer__phone" href="tel:+373(231)6-94-48">+373(231) 6-94-48</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="footer__title">
+                        <h4 class="footer__title">Электронная Почта:</h4>
+                        <div class="footer__text">
+                            <p class="footer__email">
+                                <a class="footer__email" href="info@clinicvet.org">info@clinicvet.org</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="footer__title">
+                        <h4 class="footer__title">Адрес:</h4>
+                        <address class="footer__adress">Молдова, г. Бельцы, ул.Конева 28, SRL “ClinicVet”</address>
+                        <p class="footer__license">Лицензия A MMII №035683</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Copyright -->
+
+    <div class="copyright">
+        <div class="container">
+            <div class="copyright__block">
+                <div class="copyright__text">
+                    Copyright © 2021 Mazur A.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Auth Box -->
+    <!-- &#65794 -->
+    <div class="authbox" id="authBox">
+
+        <div class="authbox__content">
+            <a class="authbox__close" href="">&#65794</a>
+            <form class="authbox__form" action="" method="post">
+                <h1>Авторизация</h1>
+
+                <input type="text" name="" placeholder="Ваш email адрес">
+                <input type="password" name="" placeholder="Пароль">
+                <input type="submit" name="" value="Войти">
+                <a class="become__link" href="#">Регистрация</a>
+                <a class="recover__link" href="#">Востановить пароль</a>
+            </form>
+        </div>
+
+
+    </div>
+
+
+    <!-- Javascript -->
+    <script src="app.js"></script>
+</body>
+
+</html>
