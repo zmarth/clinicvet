@@ -1,0 +1,8 @@
+.selected-lang {
+    padding-left: 5px;
+}
+
+.lang-menu .selected-lang:before {
+    /* background-image: url(https://www.countryflags.io/us/flat/32.png); */
+    background-image: url(../img/flags/Flag_of_the_United_States_\(Pantone\).png);
+}

@@ -7,11 +7,14 @@ $(function() {
     let scrollPos = $(window).scrollTop();
     let nav = $("#nav");
     let navToggle = $("#navToggle");
+
+
     // Auth Box
     const modalBtn = document.querySelectorAll('[data-modal]');
     const body = document.body;
     const modalClose = document.querySelectorAll('authbox__close');
     const modal = document.querySelectorAll('.authbox');
+
 
     checkScroll(scrollPos, introH);
 
@@ -99,4 +102,32 @@ $(function() {
         currentModal.classList.remove('show');
         body.classList.remove('no-scroll');
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 });

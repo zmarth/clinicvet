@@ -1,0 +1,4 @@
+.lang-menu .selected-lang:before {
+    /* background-image: url(https://www.countryflags.io/ro/flat/32.png); */
+    background-image: url(../img/flags/Flag_of_Romania.png);
+}

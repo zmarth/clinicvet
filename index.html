@@ -4,10 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/ru.css">
     <meta name="viewoirt" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap" rel="stylesheet">
+
+
+
+    <!-- Favicons -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Meta Description -->
+
+    <meta name="description" lang="ru" content="Ветеринарная Клиника ClinicVet, забота о здоровье вашего питомца, Конева 28, Бельцы, Молдова">
+
+
+    <meta name="keywords" lang="ru" content="Ветеринарная Клиника в Бельцах, Ветеринарная помощь,Ветеринарная служба, Ветеринарный центр, Лечение животных, Прививки,  Ветаптека, Корма для животных, Документы на выезд, Чипирование, Аксессуары для животных, Лекарства для животных">
+
+    <title>ClinicVet</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YZQXDEBSDR"></script>
@@ -22,30 +47,13 @@
         gtag('config', 'G-YZQXDEBSDR');
     </script>
 
-    <!-- Favicons -->
-
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="assets/img/favicons/site.webmanifest">
-    <link rel="mask-icon" href="assets/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-
-    <!-- Meta Description -->
-
-    <meta name="description" lang="ru" content="Ветеринарная Клиника ClinicVet, забота о здоровии вашего питомца, Конева 28, Бельцы, Молдова">
-
-
-    <meta name="keywords" lang="ru" content="Ветеринарная Клиника в Бельцах, Ветеринарная помощь,Ветеринарная служба, Ветеринарный центр, Лечение животных, Прививки,  Ветаптека, Корма для животных, Документы на выезд, Чипирование, Аксессуары для животных, Лекарства для животных">
-
-    <title>ClinicVet</title>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="canonical" href="https://clinicvet.md/" />
+    <link rel="alternate" href="https://clinicvet.md/index.html" hreflang="ru-md" />
+    <link rel="alternate" href="https://clinicvet.md/ro.html" hreflang="ro-md" />
+    <link rel="alternate" href="https://clinicvet.md/en.html" hreflang="en-md" />
 </head>
 
 <body>
-
 
     <!--   Header   -->
     <header class="header" id="header">
@@ -64,6 +72,27 @@
                 </nav>
 
 
+                <!-- Lang menu -->
+
+                <div class="lang-menu">
+                    <div class="selected-lang">
+                        Русский
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#" class="ru">Русский</a>
+                        </li>
+                        <li>
+                            <a href="ro.html" class="ro">Română</a>
+                        </li>
+                        <li>
+                            <a href="en.html" class="en">English</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <!-- Button Menu -->
                 <button class="menu" type="button" id="navToggle">
                     <span class="menu__item">Menu</span>
 				</button>
@@ -75,9 +104,11 @@
 
     <!--   Intro  -->
     <div class="intro" id="intro">
-
         <div class="video">
-            <video class="video__media" src="assets/video/main.mp4" playsinline autoplay muted loop poster="assets/img/back_intro.png"></video>
+            <video class="video__media" id="" autoplay playsline muted loop poster="assets/img/back_intro-min.png" webkit-playsinline playsinline muted loop onloadstart oncanplaythrough onplay onerror>
+			
+				<source src="assets/video/intro__content.mp4" type="video/mp4" codecs="avc1.64001E, mp4a.40.2" onerror/>
+			</video>
             <div class="intro__content">
                 <div class="container__content">
                     <div class="intro__inner">
@@ -191,7 +222,7 @@
             <div class="booking__text">
                 <p>Пройдите Простое Анкетирование Указав Информацию о Вас и о Вашем Питомце</p>
             </div>
-            <a class="btn btn--orange" href="#" data-modal="authBox">Авторизация</a>
+            <a class="btn btn--orange" href="#" data-modal="authBox">Регистрация</a>
         </div>
     </div>
 
@@ -245,7 +276,7 @@
                         <h4 class="footer__title">Электронная Почта:</h4>
                         <div class="footer__text">
                             <p class="footer__email">
-                                <a class="footer__email" href="info@clinicvet.org">info@clinicvet.org</a>
+                                <a class="footer__email" href="mailto:info@clinicvet.org">info@clinicvet.org</a>
                             </p>
                         </div>
                     </div>
@@ -296,6 +327,7 @@
 
     <!-- Javascript -->
     <script src="app.js"></script>
+
 </body>
 
 </html>
